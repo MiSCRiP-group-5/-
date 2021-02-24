@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13">
+        <rdfs:comment>Онтология инновации</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Выполняет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Выполняет">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#связь"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Имеет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Имеет">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#связь"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Обрабатывает -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Обрабатывает">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#связь"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Управляет -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Управляет">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#связь"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Формирует -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Формирует">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#связь"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#связь -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#связь"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#A -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#A">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Класс_точности"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Cистема_механического_отвода_пыли_и_отходов -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Cистема_механического_отвода_пыли_и_отходов">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Втулка_А-100222 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Втулка_А-100222">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Обрабатываемые_детали"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Высокая_точность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Высокая_точность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Показатели_эффективности_внедрения"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Вытачивание_вдоль_детали -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Вытачивание_вдоль_детали">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Диапазон_подачи -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Диапазон_подачи">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Диск_А-100221 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Диск_А-100221">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Обрабатываемые_детали"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Допустимый_диаметр_заготовок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Допустимый_диаметр_заготовок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Класс_точности -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Класс_точности">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Минимизация_брака -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Минимизация_брака">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Показатели_эффективности_внедрения"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Мощность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Мощность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Обрабатываемые_детали -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Обрабатываемые_детали"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства">
+        <rdfs:comment>Общие свойства станка</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Оператор -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Оператор">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Специалисты"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Операции -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Операции"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Показатели_эффективности_внедрения -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Показатели_эффективности_внедрения"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Простота_переналадки -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Простота_переналадки">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Показатели_эффективности_внедрения"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Расточка_отверстий -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Расточка_отверстий">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Резка_заготовок -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Резка_заготовок">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Скорость_движения_раб._инструмента -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Скорость_движения_раб._инструмента">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Сокращение_трудоемкости_производства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Сокращение_трудоемкости_производства">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Показатели_эффективности_внедрения"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Специалисты -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Специалисты"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Операции"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Точение_заготовок_по_параметрам -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Точение_заготовок_по_параметрам">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Фланец_А100223 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Фланец_А100223">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Обрабатываемые_детали"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Формирование_дюймовой_резьбы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Формирование_дюймовой_резьбы">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Формирование_метрической_резьбы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Формирование_метрической_резьбы">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Черновая_обработка_отверстий -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Черновая_обработка_отверстий">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Число_одновременно_управляемых_осей -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Число_одновременно_управляемых_осей">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Общие_свойства"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Чистовая_обработка_отверстий -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Чистовая_обработка_отверстий">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#до_1000_мм -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#до_1000_мм">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Допустимый_диаметр_заготовок"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#1500 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#1500">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Диапазон_подачи"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#2-5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#2-5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Число_одновременно_управляемых_осей"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#2_000_об/сек -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#2_000_об/сек">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Скорость_движения_раб._инструмента"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#40_кВт -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#40_кВт">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Мощность"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Максимов_Илья_Сергеевич -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Максимов_Илья_Сергеевич">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Оператор"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Система_программного_обеспечения -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Система_программного_обеспечения">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hp/ontologies/2021/1/untitled-ontology-13#Токарная_операция"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment>Станок с ЧПУ</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
